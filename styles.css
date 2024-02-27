@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #F3F8FF;
+}
+
+.nav{
+    background-color: #7E30E1;
+    color:#F3F8FF;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #F3F8FF;
+    margin-right: 10px;
+}
+
+.container{
+    position :relative;
+    max-width: 1345px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+button{
+    padding: 15px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.filterBtns{
+ display: flex;
+ align-items: center;
+ gap: 15px;
+}
+
+button.active{
+    background-color: #7E30E1;
+    color: white;
+}
+
+.cardFil{
+    display: flex;
+    margin-top: 25px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-grow: 1;
+    flex-basis: 300px;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 210px;
+}
+
+.card_body{
+    padding: 15px 20px 20px;
+}
+
+.card_title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.card_body{
+    font-size: 13px;
+}
+
+
+.card.hide{
+    display: none; 
+}
